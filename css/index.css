@@ -24,8 +24,8 @@ Below setting for browser
         font-size: 30px; font-weight: 10; color: #6880b8;
     }
     
-     .topnav {
-        background-color: #333;
+    .topnav {
+        background-color: rgb(48, 83, 99);
         overflow: hidden;
         border-radius: 10px;
         position: fixed;
@@ -41,12 +41,12 @@ Below setting for browser
     }
     
     .topnav a:hover {
-        background-color: rgb(195, 235, 238);
-        color: black;
+        background-color: rgb(156, 181, 204);
+        color: rgb(116, 118, 126);
     }
     
     .topnav a.active {
-        background-color: #049faa;
+        background-color: rgb(54, 143, 143);
         color: white;
     }
 
@@ -107,7 +107,7 @@ Below setting for browser
         color: #323f5c;
         padding-top: 5px;
         padding-bottom: 10px;
-        padding-left: 250px;
+        padding-left: 230px;
     }
     
     input.userNameandEmail {
@@ -149,11 +149,24 @@ Below setting for browser
       }
 
     .project-link {
-        color: #2a539e;
+        color: d4d4d4;
         text-decoration: none;
     }
 
     .project-li {
         list-style: none;
     }
+
+      .icongroup{
+        padding-left: 50px;
+        font-size:24px;
+      }
+
+      .icon-text-size {
+            font-size: 50px;
+        }
+    
+        a, a:visited {
+            color: #94969c;
+        }
 }
